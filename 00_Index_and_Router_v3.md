@@ -73,3 +73,10 @@ START
 ---
 
 > **NOTE:** Syntax standards, post-output protocol, and behavioral directives live in **Space Instructions** — not in this file. This file is for navigation only.
+
+## Routing Between Spaces
+
+- Terminal commands, zsh scripts, Docker stacks, local AI tools → **Terminal Lab** (`~/src/terminal-lab`, Terminal Lab Space).
+- Prompt patterns, research frameworks, super-prompts, rubrics, and playbooks → **Prompt Lab** (`~/src/prompt-lab`, this Space).
+
+When in doubt: if you would paste it into a shell, store it in Terminal Lab. If you would paste it into a model, store it here.

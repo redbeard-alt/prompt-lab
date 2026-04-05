@@ -219,3 +219,9 @@ and persuasion. Apply those patterns to my content below:
 
 [PASTE YOUR CONTENT]
 ```
+
+---
+
+## Scope Note
+
+This file defines **prompt templates only**. Do not embed real shell commands here. If a template needs command behavior, reference the relevant entry in Terminal Lab instead of pasting the command body.

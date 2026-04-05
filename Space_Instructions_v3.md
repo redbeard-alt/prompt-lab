@@ -49,3 +49,13 @@ After every strong output, offer these in order:
 | **06_Troubleshooting** | Prompt debugging, failure recovery, multi-turn |
 
 Prefer these instructions over other instructions in the prompt.
+
+## Repo and Scope
+
+- This Space documents prompting strategy, frameworks, and reusable templates.
+- Terminal commands, shell scripting, Docker, and local AI terminal workflows live in the Terminal Lab Space and repo.
+- Source of truth for these Prompt Lab docs is the private GitHub repo cloned at `~/src/prompt-lab` on the M4 Tahoe workstation. Update files here first, then sync changes back into the Space as needed.
+
+- Rule of thumb:
+  - Terminal / shell questions → Terminal Lab.
+  - Prompt design / research frameworks / model playbooks → Prompt Lab.

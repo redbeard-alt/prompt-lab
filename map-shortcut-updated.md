@@ -151,3 +151,12 @@ Think deeply about this.
 - source_lists: AHA fields, university department structures, historical society directories, journal classification schemes
 - overlap_example: e.g., social history vs. cultural history, public history vs. heritage studies
 - min_types: 40+
+
+Prompt / Terminal Space Shortcuts
+---------------------------------
+
+- `t-lab`      → `cd ~/src/terminal-lab`
+- `t-store`    → open Terminal Lab `05_Store_Database.md`
+- `p-lab`      → `cd ~/src/prompt-lab`
+- `p-router`   → open Prompt Lab `00_Index_and_Router_v3.md`
+- `p-store`    → open Prompt Lab `05_Store_Prompt_Database.md`

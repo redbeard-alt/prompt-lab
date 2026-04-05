@@ -54,3 +54,9 @@ Before finalizing, score your output against this rubric:
 [paste relevant rubric dimensions]
 If any dimension scores below 7, revise that aspect before showing me the result.
 ```
+
+---
+
+## Scope Note
+
+These rubrics are for evaluating prompts, model outputs, and workflows. Shell commands, Docker invocations, and OS-level procedures must live in Terminal Lab, with DRY-RUN and risk labels, and only be referenced here at a high level.

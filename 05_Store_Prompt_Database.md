@@ -301,3 +301,14 @@ Overall: [N]/3 passed → Action: Promote | Refine | Retire
 | **Monthly Total** | | | /10,000 | |
 
 ```
+
+---
+
+## Scope and Relationship to Terminal Lab
+
+- This database stores **battle-tested prompts** (system prompts, workflows, rubrics, checklists).
+- Do not store shell commands here. Paste commands and scripts into Terminal Lab’s `05_Store_Database.md` with risk labels and DRY-RUN/live variants.
+- Each prompt entry should record:
+  - Target model(s) and provider.
+  - Primary use case (research, coding, planning, etc.).
+  - Known-good date and any model/version assumptions.

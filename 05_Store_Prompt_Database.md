@@ -233,6 +233,30 @@
 
 ---
 
+## USE CASE: HOMESCHOOL / CURRICULUM BUILD
+
+### OpenStax U.S. History — Chapter Trio Builder
+- **Status:** Battle-Tested (v2)
+- **Target AI:** Agentic AI
+- **Model:** Perplexity Computer (Claude Sonnet 4.6 primary)
+- **Last Used:** April 2026
+- Tested with Ch. 14 + Ch. 15 | Success Rate: Pass (v1); v2 adds 20 hardenings from red team
+- **Notes:** Produces 4 assets per chapter — Video Guide Doc, Vocab Sheet Doc, Answer Key Doc, and NotebookLM with chapter sources. Full prompt + original + red-team notes in `prompts/homeschool-chapter-trio/`. See `v2-fixed.md` for production version.
+
+> Full prompt lives at [`prompts/homeschool-chapter-trio/v2-fixed.md`](prompts/homeschool-chapter-trio/v2-fixed.md). Inline summary:
+>
+> - `<INPUTS>` N (chapter number 1–29), optional chapter title
+> - Validates chapter exists, fetches OpenStax TOC (no slug guessing)
+> - Caps content at 8–12 questions + 12–15 vocab terms
+> - Parallel Doc creation with sequential fallback + timestamp-filtered dedup
+> - NotebookLM source count computed as `sections + 1 intro + videos + 1 answer key`
+> - Partial-delivery path if NotebookLM exceeds 10-min soft deadline
+> - Full `<STYLE_GUIDE>` covering enslaved people, Indigenous nations, Japanese American incarceration, etc.
+> - `<BUDGET>` ceiling: 1 subagent, 1 browser task, 15 min wall clock
+> - User-verifiable acceptance checklist at the end
+
+---
+
 ## USE CASE: [ADD YOUR OWN]
 
 *[empty — add first prompt here]*

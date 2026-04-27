@@ -1,0 +1,17 @@
+Gap,Where to Add,Size,Status
+Blueprint Scaffolding (POST-OUTPUT #6),03_Tool_Super_Prompt_Template_v3.md,Small,Done
+Prompt Optimizer meta-prompt,03_Tool_Super_Prompt_Template_v3.md (Optional Add-ons),Small,Done
+XML Sandwich attribution fix + delimiters,03_Tool_Super_Prompt_Template_v3.md (Template A intro),Medium,Done
+Exemplars optional for reasoning models,03_Tool_Super_Prompt_Template_v3.md (exemplars section),Small,Done
+Model selection rule (complexity-based),04_Tool_Quick_Reference_Card.md (Model Selection),Small,Done
+Skip "think step by step" anti-pattern,04_Tool_Quick_Reference_Card.md (Router Nudge),Small,Done
+Custom instructions philosophy bullets,04_Tool_Quick_Reference_Card.md (top),Small,Done
+Power follow-ups (elaborate/critique/rewrite),04_Tool_Quick_Reference_Card.md (cheat sheet),Small,Done
+Space Instructions v2 (XML format),Space_Instructions_v3.md,Medium,Done
+Verbosity note in technique lookup,00_Index_and_Router_v3.md (row 54),Small,Done
+Don't overload instructions guardrail,02_Core_Perplexity_Max_Playbook_v3.md (Part 7 DON'T),Small,Done
+Scan 05_Store/06_Troubleshooting/map-shortcut for misattribution,05_Store + 06_Troubleshooting + map-shortcut,Scan,Done — no <Task type:> patterns found
+Terminal Lab boundary (Space_Instructions_Compact.md),Terminal Lab / Space_Instructions_Compact.md,Medium,Done
+Terminal Lab routing rule,Terminal Lab / 00_Index_Router_v5.md,Small,Done
+Terminal Lab routing line (09_Core),Terminal Lab / 09_Core_Warp_AI_Guide_v5.md,Small,Done
+Terminal Lab routing line (06_Tool),Terminal Lab / 06_Tool_AI_Terminal_v5.md,Small,Done
